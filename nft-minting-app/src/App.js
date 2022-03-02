@@ -162,8 +162,8 @@ function App() {
 
     const incrementMintAmount = () => {
         let newMintAmount = mintAmount + 1;
-        if (newMintAmount > 50) {
-            newMintAmount = 50;
+        if (newMintAmount > 10) {
+            newMintAmount = 10;
         }
         setMintAmount(newMintAmount);
     };
@@ -298,8 +298,7 @@ function App() {
                     <
                     StyledLink target = { "_blank" }
                     href = { CONFIG.MARKETPLACE_LINK } > { CONFIG.MARKETPLACE } <
-                    /StyledLink> < /
-                    >
+                    /StyledLink> < / >
                 ) : ( <
                         >
                         <
@@ -353,8 +352,7 @@ function App() {
                                             color: "var(--accent-text)",
                                         }
                                     } > { blockchain.errorMsg } <
-                                    /s.TextDescription> < /
-                                    >
+                                    /s.TextDescription> < / >
                                 ) : null
                             } <
                             /s.Container>
@@ -478,9 +476,9 @@ function App() {
     for the contract to successfully mint your NFT.We recommend that you don 't lower the
     gas limit. <
         /s.TextDescription> < /
-        s.Container > <
+    s.Container > <
         /s.Container> < /
-        s.Screen >
+    s.Screen >
 );
 }
 
