@@ -10,9 +10,9 @@
     "SYMBOL": "KevinPhunks",
     "MAX_SUPPLY": 555,
     "WEI_COST": 2000000000000000000,
-    "DISPLAY_COST": 4,
+    "DISPLAY_COST": 0.02,
     "GAS_LIMIT": 285000,
-    "MARKETPLACE": "Opeansea",
+    "MARKETPLACE": "Opensea",
     "MARKETPLACE_LINK": "https://opensea.io/collection/kevin-phunks",
     "SHOW_BACKGROUND": true
 }
