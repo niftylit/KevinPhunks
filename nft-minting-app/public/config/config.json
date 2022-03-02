@@ -7,9 +7,9 @@
         "ID": 1
     },
     "NFT_NAME": "Kevin Phunks",
-    "SYMBOL": "KevinPhunks",
+    "SYMBOL": "KevinPhunks ",
     "MAX_SUPPLY": 555,
-    "WEI_COST": 2000000000000000000,
+    "WEI_COST": 20000000000000000,
     "DISPLAY_COST": 0.02,
     "GAS_LIMIT": 285000,
     "MARKETPLACE": "Opensea",
